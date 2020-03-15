@@ -64,7 +64,7 @@
             <macros>
                 <macro>
                     <macro>{$SSL.AVG}</macro>
-                    <value>5</value>
+                    <value>10</value>
                     <description>number of days left before triggering average</description>
                 </macro>
                 <macro>
@@ -73,7 +73,7 @@
                 </macro>
                 <macro>
                     <macro>{$SSL.INFO}</macro>
-                    <value>30</value>
+                    <value>60</value>
                     <description>number of days left before triggering information</description>
                 </macro>
                 <macro>
@@ -83,7 +83,7 @@
                 </macro>
                 <macro>
                     <macro>{$SSL.WARN}</macro>
-                    <value>15</value>
+                    <value>30</value>
                     <description>number of days left before triggering warning</description>
                 </macro>
             </macros>
