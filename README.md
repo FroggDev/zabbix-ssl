@@ -9,7 +9,7 @@ It can check:
 * if SSL certificate can be read
 
 # Requirement
-The script use the commands **smbclient** so it requires the linux package **openssl**
+The script use the commands **openssl** so it requires the linux package **openssl**
 
 To install it you can use the package manager of your distribution
 
