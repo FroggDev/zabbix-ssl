@@ -42,10 +42,12 @@ done
 
 ### PART 2 : check if required params are set
 
-# if all required params arent set set help to true
+# if all required params arent set return a special number to be catch in Zabbix template
 for REQUIRE in ${REQUIRES[@]}
 do
-  [ -z  ${PARAMS[$REQUIRE]} ] && PARAMS[-a]="help"
+ [ -z  ${PARAMS[$REQUIRE]} ] && echo 9999999999 && exit
+# Set the help for out of box usage 
+#[ -z  ${PARAMS[$REQUIRE]} ] && PARAMS[-a]="help"
 done
 
 

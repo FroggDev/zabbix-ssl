@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-05-25
+### Added
+- Added a warning if $SSL.DNS macro is not set
+
 ## [1.0.1] - 2020-05-25
 ### Added
 - Fix the number of days left in the message
