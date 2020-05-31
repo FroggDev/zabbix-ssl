@@ -1,4 +1,4 @@
-### Zabbix Template Module SSL version 1.0.2
+### Zabbix Template Module SSL version 1.0.3
 
 Tested on Zabbix 4.4
 
